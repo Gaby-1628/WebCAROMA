@@ -9,39 +9,69 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="">INICIO</a>
-            <a href="">SERVICIOS</a>
-            <a href="">NOSOTROS</a>
-            <a href="">PROYECTOS</a>
-            <a href="">CONTACTO</a>
+    <header id="inicio">
+        <nav class="menu">
+            <div class="menu_container">
+                <span>
+                    <img src="img/ISO CAROMA B-01.png" alt="">
+                </span>
+                <div class="container_links">
+                    <a href="#inicio" class="link">INICIO</a>
+                    <a href="#services" class="link">SERVICIOS</a>
+                    <a href="#about" class="link">NOSOTROS</a>
+                    <a href="" class="link">PROYECTOS</a>
+                    <a href="" class="link">CONTACTO</a>
+                </div>
+            </div>
         </nav>
-        <secttion class="hero-baner">
-            <h1>Comprometidos con la Calidad y la Sostenibilidad</h1>
-            <button class="btn">Contactar</button>
-        </secttion>
+        <section class="header">
+            <h1 class="titulo">Comprometidos con la Calidad y la Sostenibilidad</h1>
+            <!-- <h3 class="subtitulo">Agilidad y Excelencia</h3> -->
+            <button type="submit" class="btn-contact">Contactar</button>
+        </section>
+        <!-- <div class="sesgo-abajo"></div> -->
     </header>
     <main>
-        <section class="servicios">
-            <h2 class="title">SERVICIOS</h2>
+        <section id="services" class="services">
+            <div class="overlay"></div>
+            <h2 class="title_service">SERVICIOS</h2>
             <article class="container">
                 <div class="cards">
+                    <img src="img/pen-ruler-solid.svg" class="img">
                     <h3>Planificacion Integral de Proyectos</h3>
                     <p>
                         Antes de comenzar cualquier proyecto, en CAROMA llevamos a cabo una exhaustiva planificacion en
                         la que:
                     </p>
                     <ul>
-                        <li>Se establecen las necesidades del cliente.</li>
-                        <li>Se definen los objetivos.</li>
-                        <li>Se elabora un cronograma de trabajo</li>
-                        <li>Se determina un presupuesto.</li>
-                        <li>Se realiza una evaluacion de riesgos.</li>
-                        <li>Se diseñan estrategias para minimizar los impactos ambientales del proyecto.</li>
+                        <div class="li_container">
+                            <img src="img/arrow-right-long-solid.svg" alt="">
+                            <li>Se establecen las necesidades del cliente.</li>
+                        </div>
+                        <div class="li_container">
+                            <img src="img/arrow-right-long-solid.svg" alt="">
+                            <li>Se definen los objetivos.</li>
+                        </div>
+                        <div class="li_container">
+                            <img src="img/arrow-right-long-solid.svg" alt="">
+                            <li>Se elabora un cronograma de trabajo</li>
+                        </div>
+                        <div class="li_container">
+                            <img src="img/arrow-right-long-solid.svg" alt="">
+                            <li>Se determina un presupuesto.</li>
+                        </div>
+                        <div class="li_container">
+                            <img src="img/arrow-right-long-solid.svg" alt="">
+                            <li>Se realiza una evaluacion de riesgos.</li>
+                        </div>
+                        <div class="li_container">
+                            <img src="img/arrow-right-long-solid.svg" alt="">
+                            <li>Se diseñan estrategias para minimizar los impactos ambientales del proyecto.</li>
+                        </div>
                     </ul>
                 </div>
                 <div class="cards">
+                    <img src="img/compass-drafting-solid.svg" class="img">
                     <h3>Diseño y Ejecución de Proyectos</h3>
                     <p>
                         Durante la ejecucion del proyecto, el CAROMA nos aseguramos de cumplir con los plazos
@@ -52,6 +82,7 @@
                     </p>
                 </div>
                 <div class="cards">
+                    <img src="img/hands-holding-circle-solid.svg" class="img">
                     <h3>Sustentabilidad de Proyectos</h3>
                     <p>
                         En CAROMA estamos comprometidos con la gestion responsable de los residuos de obra. Por ello,
@@ -63,28 +94,34 @@
                 </div>
             </article>
         </section>
-        <section class="about">
-            <h2>QUIENES SOMOS</h2>
-            <article class="container">
-                <div class="container-img">
-                    <img src="" alt="">
+        <section id="about" class="about">
+            <div class="container-img">
+                <img src="img/pexels-binary-ego-14265867.jpg" alt="">
+            </div>
+            <div class="box-container">
+                <div class="box-content">
+                    <h2 class="title_about">QUIENES SOMOS</h2>
+                    <div class="container-text">
+                        <p>
+                            CAROMA es una empresa constructora especializada en obra civil y mantenimiento con conciencia
+                            ambiental. Desde su fundación, nuestra empresa ha logrado consolidarse como una de las
+                            principales opciones en el sector de la construccion en la region.
+                        </p>
+                        <p>
+                            Contamos con un equipo de profecionales altamente capacitados y experimentados en el sector de
+                            la construccion. Cada uno de nuestros colaboradores esta compormetido con la calidad y la
+                            sostenibilidad en cada uno de los poryectos que realizamos.
+                        </p>
+                        <p>
+                            En CAROMA ofrecemos una amplia gama de servicios que abarcan desde la construccion de edificios,
+                            obra civil y mantenimiento industrial. Siempre buscando minimizar el impacto ambiental de
+                            nuestras obras
+                        </p>
+                    </div>
                 </div>
-                <div class="container-text">
-                    <p>
-                        CAROMA es una empresa constructora especializada en obra civil y mantenimiento con conciencia
-                        ambiental. Desde su fundación, nuestra empresa ha logrado consolidarse como una de las
-                        principales opciones en el sector de la construccion en la region.
-                        Contamos con un equipo de profecionales altamente capacitados y experimentados en el sector de
-                        la construccion. Cada uno de nuestros colaboradores esta compormetido con la calidad y la
-                        sostenibilidad en cada uno de los poryectos que realizamos.
-                        En CAROMA ofrecemos una amplia gama de servicios que abarcan desde la construccion de edificios,
-                        obra civil y mantenimiento industrial. Siempre buscando minimizar el impacto ambiental de
-                        nuestras obras
-                    </p>
-                </div>
-            </article>
+            </div>
         </section>
-        <section class="proyectos">
+        <!-- <section class="proyectos">
             <h2>PROYECTOS</h2>
             <article class="container">
                 <div class="cards-proyects">
@@ -100,8 +137,8 @@
                     <img src="" alt="">
                 </div>
             </article>
-        </section>
-        <section class="clientes">
+        </section> -->
+        <!-- <section class="clientes">
             <h2>CLIENTES</h2>
             <article class="container">
                 <div class="cards-clients">
@@ -135,8 +172,8 @@
                     <img src="" alt="">
                 </div>
             </article>
-        </section>
-        <section class="contacto">
+        </section> -->
+        <!-- <section class="contacto">
             <h2>CONTACTO</h2>
             <article class="container">
                 <div class="container-contact">
@@ -188,9 +225,9 @@
                     </div>
                 </div>
             </article>
-        </section>
+        </section> -->
     </main>
-    <footer>
+    <!-- <footer>
         <section class="footer">
             <div class="overlay"></div>
             <div class="banner-footer">
@@ -214,7 +251,7 @@
                 </div>
             </div>
         </section>
-    </footer>
+    </footer> -->
 
 
     <script src="js/main.js"></script>
